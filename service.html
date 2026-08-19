@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Details | RCM Apparel Trading Printing Service</title>
+    <meta name="description" content="RCM Apparel Trading Printing Service - detailed information about our printing services.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header class="header">
+    <div class="container header-inner">
+        <a href="index.html" class="logo">
+            <img src="images/rcm_logo.png" alt="RCM Logo">
+            <div>
+                <h2>RCM</h2>
+                <span>Trading &amp; Printing</span>
+            </div>
+        </a>
+        <nav class="navbar" id="primary-nav">
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button type="button" class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-nav">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+    </div>
+</header>
+
+<section class="service-detail">
+    <div class="container service-detail-inner">
+        <a href="index.html#services" class="back-link">
+            <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+            <span>Back to Services</span>
+        </a>
+
+        <div class="service-detail-grid" id="service-detail">
+            <!-- Filled in by service.js based on the ?id= URL parameter -->
+            <div class="service-loading" aria-live="polite">
+                <i class="fa-solid fa-spinner fa-spin" aria-hidden="true"></i>
+                <p>Loading service details&hellip;</p>
+            </div>
+        </div>
+
+        <div class="service-cta">
+            <a href="index.html#contact" class="btn btn-primary">
+                <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                <span style="margin-left:8px;">Request a Quote</span>
+            </a>
+            <a href="index.html#services" class="btn btn-secondary">View Other Services</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container footer-inner">
+        <p>&copy; 2026 RCM Apparel Trading Printing Service. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="index.html#services">Services</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#contact">Contact</a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/service.js"></script>
+</body>
+
+</html>
